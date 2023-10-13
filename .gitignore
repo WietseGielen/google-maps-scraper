@@ -113,3 +113,4 @@ output/
 temp/
 NEXT-STEPS
 .idea/
+local_storage.json
