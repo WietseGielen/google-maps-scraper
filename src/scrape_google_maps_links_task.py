@@ -42,7 +42,7 @@ def clean(data_list, query):
     keys = 'ALL'
 
     if keys == 'ALL':
-        keys = ["title", "main_category", "email", "phone_number", "address", "website", "link", "rating", "reviews"]
+        keys = ["title", "main_category", "email", "phone_number", "address", "website", "rating", "reviews", "link"]
     new_results = data_list
 
     new_results = [sort_dict_by_keys(x, keys) for x in new_results]
