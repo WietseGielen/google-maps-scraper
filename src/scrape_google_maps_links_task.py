@@ -41,8 +41,6 @@ def sort_dict_by_keys(dictionary, keys):
 def clean(data_list, query):
     keys = 'ALL'
 
-    print(data_list)
-
     if keys == 'ALL':
         keys = ["title", "main_category", "email", "phone_number", "address", "website", "link", "rating", "reviews"]
     new_results = data_list
@@ -160,8 +158,7 @@ class ScrapeGoogleMapsLinksTask(BaseTask):
                             number_of_times_not_scrolled += 1
 
                             if number_of_times_not_scrolled > 20:
-                                print(
-                                    'Google Maps was Stuck in Scrolling. So returning.')
+                                print('Google Maps was Stuck in Scrolling. So returning.')
                                 return False, []
 
                             print('Scrolling...')
