@@ -1,4 +1,0 @@
-tasks:
-  - name: Build and Run Docker Compose
-    command: |
-      docker-compose build && docker-compose up
