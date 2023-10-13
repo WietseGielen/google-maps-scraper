@@ -35,7 +35,7 @@ function get_email(data) {
 }
 
 function get_phone_number(data) {
-  return data?.[6]?.[177]
+  return data?.[6]?.[178]?.[0]?.[0]
 }
 
 function get_website(data) {
