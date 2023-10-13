@@ -3,8 +3,8 @@ Love It? Star It! ⭐ https://github.com/omkarcloud/google-maps-scraper/
 '''
 queries = [
     {
-        "keyword": "frituren in antwerpen",
-        "max_results": 50
+        "keyword": "Containers in brussel",
+        "max_results": 30
     },
 ]
 
